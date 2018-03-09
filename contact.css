@@ -1,0 +1,181 @@
+/* ----------------------------------------- */
+          /* Contact Form Wrapper */
+/* ----------------------------------------- */
+
+
+
+
+
+.form-wrapper {
+  display: flex;
+  height: 90vh;
+  width: 1440px;
+  justify-content: left;
+}
+
+.form-heading {
+  display: flex;
+  align-self: flex-start;
+	color: #4A4A4A;
+	font-size: 48px;
+	font-family: Crimson;
+  line-height: 72px;
+	letter-spacing: 2px;
+  margin-top: 25%;
+  margin-bottom: 19px;
+}
+
+.contact-form {
+  display: flex;
+  flex: 2;
+  align-self: left;
+  flex-direction: column;
+  width: 55%;
+  margin-left: 15%;
+  margin-right: 6%;
+}
+
+::placeholder {
+  color: #C6C2B6;
+}
+
+.form-wrapper1 {
+  display: flex;
+  width: 100%;
+}
+
+.form {
+	height: 24px;
+  width: 48%;
+	color: #27221F;
+	font-size: 16px;
+	font-family: Roboto;
+	letter-spacing: 1px;
+  padding-bottom: 5px;
+  margin-top: 4%;
+  margin-bottom: 40px;
+  box-shadow: none;
+  background: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #C6C2B6;
+}
+
+.hello {
+  width: 98.5%;
+}
+
+input {
+  box-shadow: none;
+}
+
+.lname, .phone-number{
+  margin-left: 15px;
+}
+
+.contact-submit {
+	height: 60px;
+	width: 260px;
+	color: #FFFFFF;
+	font-size: 16px;
+  text-align: center;
+	font-family: Roboto;
+	line-height: 21px;
+  margin-top: 10px;
+	letter-spacing: 2px;
+	border-radius: 8px;
+  background-color: #003153;
+}
+
+.contact-submit:hover {
+  color: blue;
+  cursor: pointer;
+  background-color:#FFFFFF;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+        /* Right of the Submit form */
+/* ----------------------------------------- */
+
+
+
+
+
+.postcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 97vh;
+  width: 60%;
+  background-color: rgba(152,163,172,0.07);
+}
+
+.postcard-contact-header {
+	height: 24px;
+	width: 100%;
+	color: #27221F;
+  margin-top: 60%;
+  margin-left: 23%;
+  margin-bottom: -25%;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Crimson;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+
+.postcard-contact-text {
+	height: 200px;
+  width: 100%;
+	color: #27221F;
+  margin-top: 26%;
+  margin-left: 23%;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+
+.r {
+  margin-top: -6%;
+  color: rgba(103, 99, 99, 0.68);
+}
+
+
+
+
+
+/* ----------------------------------------- */
+            /* Section2 Postcard */
+/* ----------------------------------------- */
+
+
+
+
+
+.section2-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+}
+
+#map {
+  align-self: center;
+  height: 600px;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#contact-email {
+  width: 28%;
+}
+
+#menu-icon {
+  width: 2.3%;
+}

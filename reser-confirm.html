@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WAYŌ/reservation-confirmation</title>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="reservation.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="reser-confirm.css">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" type="text/css" media="all">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+  <script src="./script.js"></script>
+
+</head>
+<body>
+  <!-- navbar -->
+  <nav>
+    <ul class="flex-nav" id="res-navbar">
+      <li><a href="./index.html" class="logo" href="#top"><img src="./images/logo.png" alt="WAYŌ logo"></a></li>
+    </ul>
+  </nav>
+  
+  <div class="bg-color">
+  <section class="res-confirm-wrap">
+    <div class="left-contain">
+
+        <p class="left-header">Reservation confirmation</p>
+        <div class="left-postcard">
+
+            <div class="postcard-bg">
+
+                <p class="postcard-header">WAYŌ Sushi Bar</p>
+
+                <div class="left-txt">
+
+                    <a class="edit" href="./reservation.html#edit-reserv">edit</a>
+                    <br /> 7810 1st Street<br /> Coronado, CA 92118<br /><br />
+                    <p class="light-gray">DATE</p>
+                    Saturday, November 18, 2017<br /><br />
+                    <p class="light-gray">TIME</p>
+                    6:00 pm<br /><br />
+                    <p class="light-gray">GUESTS</p>
+                    2 people
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-contain">
+      <div class="right-postcard">
+        <p class="left-pic"><img src="./images/Timer.png" alt="Icon of a timer"></p>
+         <p class="right-txt">We can only hold this<br /> reservation for you for<br /> <strong>8:00 minutes</strong><br /></p>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <section class="section2-wrap">
+    <div class="form-postcard">
+      <!-- Contact Us Form -->
+      <div class="form-wrapper1">
+        <div class="form-wrapper">
+          <form class="contact-form2">
+            <div>
+              <label for="fname"></label>
+              <input type="text" class="confirm_pg  fname  top2" name="firstname" placeholder="First name">
+      
+              <label for="lname"></label>
+              <input type="text" class="confirm_pg  lname  top2" name="lastname" placeholder="Last name">
+            </div>
+            <div>
+              <label for="email"></label>
+              <input type="email" class="confirm_pg  email" name="email" placeholder="Email address">
+      
+              <label for="fname"></label>
+              <input type="tel" class="confirm_pg  phone-number" name="phonenumber" placeholder="Phone number">
+            </div>
+            <div>
+              <label for="email"></label>
+              <input type="email" class="confirm_pg  email  mid-2" name="email" placeholder="Name on credit card">
+            
+              <label for="fname"></label>
+              <input type="tel" class="confirm_pg  phone-number  mid-2  lock" name="phonenumber" placeholder="Credit card number">
+            </div>
+            <div>
+              <label for="email"></label>
+              <input type="email" class="confirm_pg  email" name="email" placeholder="Expiration date MM/YY">
+            
+              <label for="fname"></label>
+              <input type="tel" class="confirm_pg  phone-number  help" name="phonenumber" placeholder="CVC code">
+            </div>
+            <div>
+              <label for="hello"></label>
+              <input type="text" class="form  hello" name="hello" placeholder="Add a note or special request (optional)">
+            </div>
+    </div>
+  
+  </section>
+
+  <!-- Below Form -->
+
+  <div class="checkboxes-wrap">
+    <div class="check-div">
+      <label class="container">Yes, I want to receive email updates from WAYŌ
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+    <div class="check-div">
+      <label class="container">Yes, I want to receive text updates and reminders about my reservation*
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+
+    <a href="reser-thank-you.html" class="confirm-button" id="checkbox-btn"><p class="confirm-button-text">confirm reservation</p></a>
+
+    <p class="confirm-agree">By confirming, you agree to WAYŌ’s Reservation Policy, Terms Of Use, and Privacy Policy <br /><br />
+    *Standard text message rates may
+    apply. You can opt out of receiving text messages at any time</p>
+  </div>
+
+    <!-- Footer -->
+    
+    <footer class="foot">
+      <div class="newsletter">
+        <p>Join the WAYŌ newsletter
+    
+          <label for="email"></label>
+          <input type="email" class="foot2  email  menu-email" name="email" placeholder="Email address">
+    
+          <span class="subscribe">
+            <img class="carot" src="./images/right-arrow.png" alt="right facing arrow">
+          </span>
+    
+          <span class="address menu-address">
+            © 2017 WAYŌ. All rights reserved.
+          </span>
+    
+    
+          <a href="www.facebook.com/WAYO">
+            <img class="icon  fb  menu-icon" src="./images/facebook.png" alt="circular facebook icon">
+          </a>
+    
+          <a href="www.instagram.com/WAYO">
+            <img class="icon  instagram  menu-icon" src="./images/instagram.png" alt="circular facebook icon">
+          </a>
+    
+      </div>
+    </footer>
+
+
+</body>
+</html>

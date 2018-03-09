@@ -1,0 +1,363 @@
+.page-wrapper {
+  background-color: rgba(198,194,182,0.3);
+  display: flex;
+  flex-direction: column;
+}
+.page-wrap {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  background-color: rgba(198,194,182,0.3);
+}
+
+.thank-wrap {
+  display: flex;
+  height: 45vh;
+  width: 80%;
+}
+
+.thank {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 1440px;
+}
+
+.thank-text {
+	width: 77%;
+	font-size: 48px;
+	font-family: Crimson;
+	letter-spacing: 2px;
+  color: #003153;
+}
+
+.text-below {
+  height: 0px;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: #27221F;
+}
+
+.checkmark2 {
+  align-self: center;
+}
+
+.printer {
+  align-self: center;
+}
+
+.printer:hover {
+  cursor: pointer;
+}
+
+.printer-text {
+  align-self: center;
+	font-size: 16px;
+	font-family: Roboto;
+  letter-spacing: 2px;
+	color: #003153;
+}
+
+
+
+/* Section 2 / Google Maps */
+
+
+
+.section2-postcard {
+  display: flex;
+  align-self: center;
+  height: 80vh;
+  width: 80%;
+}
+
+.section2-left {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+	height: 367px;
+	width: 511px;
+	border-radius: 8px 0 0 8px;
+	background-color: #FFFFFF;
+}
+
+.top-title {
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 85%;
+  border-bottom: 1px solid #C6C2B6;
+  padding-bottom: 15px;
+}
+
+.title {
+	height: 72px;
+  width: 165px;
+  margin-top: 8%;
+  margin-right: 13%;
+	color: #27221F;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+
+.left-date {
+  align-self: center;
+  width: 85%;
+  margin-top: 4%;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+.date-text {
+	color: #C6C2B6;
+	font-family: Roboto;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 24px;
+}
+
+.title-right {
+	height: 48px;
+	width: 148px;
+	color: #003153;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+
+.section2-right {
+  align-self: flex-end;
+	height: 367px;
+	width: 649px;
+  border-radius: 0 8px 8px 0;
+}
+
+#map {
+  align-self: center;
+  width: 100%;
+  height: 367px;
+}
+
+
+
+
+/* Second Postcard */
+
+
+
+.second-postcard {
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  background-color: rgba(198,194,182,0.3);
+}
+
+.long-postcard {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 3%;
+	width: 80%;
+	height: 392px;
+	border-radius: 8px;
+  background-color: #FFFFFF;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-wrap: wrap;
+}
+
+.guest-details {
+	height: 24px;
+  width: 94%;
+  align-self: center;
+  margin-top: 3%;
+  color: #003153;
+	font-family: Crimson;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+  line-height: 24px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #C6C2B6;
+}
+
+.left-right-wrap {
+  display: flex;
+}
+
+.long-left {
+  flex: 1;
+  margin-top: 2%;
+  margin-left: 3%;
+	height: 24px;
+	width: 210px;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+.long-right {
+  flex: 1;
+  margin-top: 2%;
+	height: 24px;
+	width: 210px;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+.date-text1 {
+	color: #C6C2B6;
+	font-family: Roboto;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 24px;
+}
+
+.date-text2 {
+  color: #C6C2B6;
+	font-family: Roboto;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 24px;
+}
+
+
+
+
+/* Section 3 Postcard 2/3 1/3 */
+
+
+
+
+.third-postcard {
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  background-color: rgba(198,194,182,0.3);
+}
+
+.contain {
+  display: flex;
+  margin-top: 3%;
+  width: 80%;
+  height: 371px;
+  justify-content: center;
+}
+
+.two-third {
+  display: flex;
+  flex-direction: column;
+	height: 371px;
+  width: 659px;
+  margin-right: 3.5%;
+	border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.policy-title {
+  height: 24px;
+  width: 89%;
+  align-self: center;
+  margin-top: 5%;
+  color: #003153;
+	font-family: Crimson;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+  line-height: 24px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #C6C2B6;
+}
+
+.two-third-text {
+  align-self: center;
+	height: 236px;
+  width: 89%;
+  margin-top: 4%;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.one-third {
+  display: flex;
+  flex-direction: column;
+	height: 371px;
+  width: 461px;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+}
+
+.change-title {
+  height: 24px;
+  width: 90%;
+  align-self: center;
+  margin-top: 7.5%;
+  color: #003153;
+	font-family: Crimson;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+  line-height: 24px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #C6C2B6;
+}
+
+.one-third-text {
+  align-self: center;
+  margin-top: 4%;
+  height: 188px;
+  width: 89%;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bold {
+	color: #C6C2B6;
+	font-family: Roboto;
+	letter-spacing: 2px;
+  line-height: 24px;
+}
+
+.one-third-bottom {
+  align-self: center;
+  height: 21px;
+  width: 89%;
+  margin-top: 5%;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 21px;
+}
+
+.email {
+ color: #003153;
+ font-weight: bold;
+}

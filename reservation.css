@@ -1,0 +1,143 @@
+/* ----------------------------------------- */
+                /* Reservation */
+/* ----------------------------------------- */
+
+
+
+
+
+.reservation-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  background-color: #FFFFFF
+}
+
+.reservation-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 1440px;
+  height: 85vh;
+}
+
+.reservation-photo {
+  width: 1440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./images/reservation-hero.png");
+}
+
+.reserv-header {
+	height: 72px;
+  width: 1440px;
+	color: #003153;
+	font-size: 48px;
+	font-family: Crimson;
+  margin-top: 17%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+	line-height: 72px;
+	letter-spacing: 2px;
+  text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.reserv-text {
+  width: 100%;
+  margin-left: 15%;
+	color: #4A4A4A;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 24px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown-wrap {
+  display: flex;
+  height: 80vh;
+	background-color: #C6C2B6;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dropdown-header {
+  height: 72px;
+	width: 965px;
+  margin-top: 15%;
+	color: #003153;
+	font-size: 48px;
+	font-family: Crimson;
+	line-height: 72px;
+	letter-spacing: 2px;
+  margin-bottom: 3.5%;
+  text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.drop-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.dropdown-btn {
+	height: 60px;
+	width: 260px;
+	border-radius: 8px;
+	border: 1px solid #C6C2B6;
+  margin-right: 15px;
+}
+
+.dropdown-btn:hover {
+  cursor: pointer;
+}
+
+
+.btn-text {
+  color: #27221F;
+	font-size: 16px;
+	font-family: Roboto;
+  text-indent: 8%;
+  line-height: 24px;
+	letter-spacing: 2px;
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+  background-image: url("./images/arrows.svg");
+}
+
+.reserv-btn {
+	height: 60px;
+	width: 260px;
+  text-align: center;
+  color: #FFFFFF;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 21px;
+	letter-spacing: 2px;
+	border-radius: 8px;
+  background-color: #003153;
+}
+
+.reserv-btn:hover {
+  color: blue;
+  background-color:#FFFFFF;
+}
+
+.arrowcarot {
+  margin-left: 54%;
+}
+
+.arrowcarot1 {
+  margin-left: 41%;
+}

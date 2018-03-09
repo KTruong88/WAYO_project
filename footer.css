@@ -1,0 +1,99 @@
+/* ----------------------------------------- */
+                /* Footer */
+/* ----------------------------------------- */
+
+
+
+
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  background-color: #27221F;
+}
+
+.newsletter {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 100%;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: Crimson;
+  line-height: 30px;
+	letter-spacing: 2px;
+  margin-left: 15%;
+  
+}
+
+.subscribe {
+  flex: 1;
+	height: 21px;
+	width: 15%;
+  margin-left: 5%;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Roboto;
+	font-weight: bold;
+	line-height: 21px;
+	letter-spacing: 2px;
+  border: none;
+  
+}
+
+.subscribe:hover {
+  color: blue;
+  background-color: white;
+}
+
+.line {
+  flex: 1;
+	height: 2px;
+	width: 68.5%;
+  margin-top: 12px;
+  box-sizing: border-box;
+  border: 1px solid #B2B2B2;
+}
+
+.carot {
+  margin-left: -6%;
+}
+
+.icon {
+  width: 3.5%;
+  margin-left: 1%;
+}
+
+.address {
+  align-self: center;
+  text-align: center;
+	height: 22%;
+	width: 32%;
+  margin-top: 6%;
+  margin-bottom: -80px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Roboto;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.foot2 {
+  height: 24px;
+  width: 48%;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Roboto;
+  margin-top: 4%;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+	letter-spacing: 1px;
+  box-shadow: none;
+  background: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #C6C2B6;
+}

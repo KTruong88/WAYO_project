@@ -1,0 +1,525 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.wrapper1 {
+  background-image: url("./images/pattern.png");
+  width: 1440px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+                /* Home */
+/* ----------------------------------------- */
+
+
+
+
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 95vh;
+  background-color: #BBBBBB;
+}
+
+.home-parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 640px;
+  margin-bottom: 2px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("./images/hero-image.png");
+}
+
+.write {
+  display: flex;
+  justify-content: center;
+  height: 190px;
+  width: 100%;
+	color: #FFFFFF;
+	font-family: Crimson;
+	font-size: 80px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 95px;
+	text-align: center;
+	text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.arrow {
+  align-self: center;
+  margin-top: 165px;
+  margin-bottom: 35px;
+  color: #FFFFFF
+}
+
+.arrowbox {
+  padding: 25px;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+  /* Second Section We Honor A Sacred...*/
+/* ----------------------------------------- */
+
+
+
+
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  background-size: 74%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("./images/story.png");
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	height: 323px;
+  width: 90%;
+  margin-top: 13%;
+	margin-left: -16%;
+  text-align: left;
+	border-radius: 0 8px 8px 0;
+  background-color: rgba(0,49,83,0.95);
+}
+
+.txt {
+  margin-left: 12%;
+  text-align: left;
+}
+
+.write2 {
+  margin-left: 8%;
+  align-self: flex-start;
+  color: #FFFFFF;
+  font-family: Crimson;
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 72px;
+}
+
+.read {
+  margin-left: 1%;
+  height: 50px;
+  width: 200px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 21px;
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+	background-color: rgba(0,49,83,0.95);
+}
+
+.read:hover {
+  color: blue;
+  cursor: pointer;
+  background-color: white;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+  /* Third Section We Forge a Deep Bond...*/
+/* ----------------------------------------- */
+
+
+
+
+
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  margin-top: 2px;
+  background-repeat: no-repeat;
+  background-image: url("./images/chef-2.png");
+}
+
+.bg2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	height: 323px;
+  width: 90%;
+  text-align: left;
+  margin-top: 13%;
+  margin-left: 10%;
+	border-radius:  8px 0 0 8px;
+  background-color: rgba(0,49,83,0.95);
+}
+
+.write3 {
+  align-self: flex-end;
+  color: #FFFFFF;
+  font-family: Crimson;
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 72px;
+}
+
+.meet {
+  margin-left: 1%;
+  height: 50px;
+  width: 200px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 21px;
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  background-color: #BBBBBB;
+}
+
+.meet:hover {
+  color: blue;
+  cursor: pointer;
+  background-color: white;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+              /* Picture Grid */
+/* ----------------------------------------- */
+
+
+
+
+
+.picgrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	height: 100vh;
+  z-index: 20;
+  margin-top: -24px;
+  position: relative;
+  background-color: #27221F;
+}
+
+.pictext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+	height: 144px;
+  width: 80%;
+  margin-top: 15%;
+	color: #FFFFFF;
+	font-family: Crimson;
+	font-size: 48px;
+	letter-spacing: 2px;
+	line-height: 72px;
+	text-align: center;
+  text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.paragraph {
+  align-self: center;
+	height: 144px;
+	width: 60%;
+	color: #FFFFFF;
+	font-family: Crimson;
+	font-size: 48px;
+	letter-spacing: 2px;
+	line-height: 72px;
+	text-align: center;
+  margin-bottom: 3%;
+  text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.row {
+  display: flex;
+  width: 85%;
+  flex-wrap: nowrap;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.wrapper-grid1 {
+  display: grid;
+  align-items: stretch;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(15, 1fr);
+}
+
+.wrapper-grid1 > div {
+  padding: 2.3em;
+}
+
+.a {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-size: cover;
+  background-image: url("./images/img1.png");
+}
+
+.b {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  align-self: stretch;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/gallery2.jpg");
+}
+
+.c {
+  grid-column-start: 10;
+  grid-column-end: 13;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/img3.png");
+
+}
+
+.d {
+  grid-column-start: 13;
+  grid-column-end: 16;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/img4.png");
+}
+
+.e {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/img5.png");
+}
+
+.f {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 7;
+  grid-column-end: 13;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/img6.png");
+}
+
+.g {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 13;
+  grid-column-end: 16;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/img7.png");
+}
+
+.h {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 5em;
+  background-image: url("./images/img8.png");
+}
+
+
+
+
+
+/* ----------------------------------------- */
+              /* Section 4 */
+/* ----------------------------------------- */
+
+
+
+
+
+.wrapper-4 {
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  width: 100%;
+  text-align-last: center;
+  background-color: #FFFFFF;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.recog-title {
+	height: 72px;
+	width: 100%;
+	color: #003153;
+	font-family: Crimson;
+	font-size: 48px;
+	letter-spacing: 2px;
+  line-height: 72px;
+  margin-top: 15%;
+}
+
+.recognition-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 360.46px;
+	width: 360px;
+	border: 1px solid #C6C2B6;
+  border-radius: 8px;
+  margin-top: 3%;
+}
+
+.rtxt {
+  height: 204px;
+  width: 100%;
+	color: #27221F;
+	font-family: Crimson;
+	font-size: 36px;
+	letter-spacing: 1px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.card-button {
+	height: 50.06px;
+	width: 180px;
+  text-align: center;
+  color: #003153;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 21px;
+	letter-spacing: 2px;
+  border-radius: 8px;
+	border: 1px solid #003153;
+}
+
+.card-button:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: rgba(0,49,83,0.95);
+}
+
+.linker:hover {
+  color: #FFFFFF;
+}
+
+.card-date {
+  font-size: 25px;
+  font-weight: 450;
+  letter-spacing: 2px;
+  margin-top: -6%;
+  margin-bottom: 10%;
+  color: rgb(201, 195, 195);
+}
+
+
+
+
+
+    /* ----------------------------------------- */
+/* Fifth Section Experience an Intimate Connection...*/
+    /* ----------------------------------------- */
+
+
+
+
+
+.fifth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  z-index: 0;
+  position: relative;
+  background-color: #F7F7F7;
+  margin-top: -117px;
+  background-size: cover;
+  background-image: url("./images/reservation.png");
+}
+
+.herotext {
+  width: 100%;
+	color: #FFFFFF;
+	font-size: 80px;
+	font-weight: 500;
+	font-family: Crimson;
+	line-height: 95px;
+	letter-spacing: 2px;
+  margin-top: -5%;
+	text-align: center;
+  text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.reserve {
+	height: 60px;
+	width: 260px;
+  margin-top: 5%;
+	background-color: #003153;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+  box-shadow: 0 0.5px 4px 1px rgba(0,0,0,0.5);
+}
+
+.reserve-text {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.abc:hover  {
+  background-color: white;
+  color: blue;
+}
+
+.subscribe {
+  cursor: pointer;
+}

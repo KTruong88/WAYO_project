@@ -1,0 +1,400 @@
+/* ----------------------------------------- */
+                /* About Section */
+/* ----------------------------------------- */
+
+
+
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  height: 68vh;
+  background-size: cover;
+  background-color: #9B9B9B;
+  background-position-y: 6em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/about.png");
+}
+
+.hero-text {
+  align-self: center;
+	color: #FFFFFF;
+  margin-top: 110px;
+	font-family: Crimson;
+	font-size: 80px;
+	font-weight: 300;
+	letter-spacing: 2px;
+  line-height: 95px;
+  text-align: center;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+                /* Section2 */
+/* ----------------------------------------- */
+
+
+
+
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  background-color: #FFFFFF;
+}
+
+.section2-textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section2-header {
+  align-self: center;
+  text-align: center;
+  margin-top: 3%;
+	color: #003153;
+	font-family: Crimson;
+	font-size: 48px;
+	letter-spacing: 2px;
+	line-height: 72px;
+}
+
+.section2-text {
+  align-self: center;
+  text-align: center;
+  margin-top: 25px;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+                /* Section 3 */
+/* ----------------------------------------- */
+
+
+
+
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 160vh;
+}
+
+.container1 {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+}
+
+.left1 {
+  flex: 1;
+  background-color: #9B9B9B;
+}
+
+.right1 {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(152,163,172,0.07);
+}
+
+.right1header {
+  width: 100%;
+  align-self: center;
+  text-align: left;
+	color: #003153;
+	font-size: 48px;
+	font-family: Crimson;
+	letter-spacing: 2px;
+  line-height: 72px;
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+}
+
+.right1text {
+  width: 100%;
+  text-align: left;
+  align-self: center;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+  line-height: 24px;
+  margin-left: 20%;
+}
+
+.container2 {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+}
+
+.left2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(152,163,172,0.07);
+}
+
+.left2header {
+  align-self: flex-start;
+	color: #003153;
+	font-size: 48px;
+	font-family: Crimson;
+  line-height: 72px;
+	letter-spacing: 2px;
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-bottom: 3%;
+}
+
+.left2text {
+  align-self: flex-start;
+	color: #27221F;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+  line-height: 24px;
+  margin-left: 18%;
+}
+
+.right2 {
+  flex: 1;
+  background-color: #9B9B9B;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+          /* Section4 - Our Chef */
+/* ----------------------------------------- */
+
+
+
+
+
+.section4 {
+  display: flex;
+  height: 200vh;
+}
+
+.section4chef {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section4header {
+  margin-top: 8%;
+  margin-bottom: 3%;
+	color: #003153;
+	font-family: Crimson;
+	font-size: 48px;
+	letter-spacing: 2px;
+	line-height: 72px;
+  text-align: center;
+}
+
+.section4text {
+	color: #27221F;
+  text-align: center;
+	font-size: 16px;
+	font-family: Roboto;
+	letter-spacing: 1px;
+	line-height: 24px;
+  margin-bottom: 8%;
+}
+
+.parallax {
+  align-self: center;
+  height: 40%;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 105px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("./images/img_chef.jpg");
+}
+
+
+.reservationbtn {
+	height: 60px;
+	width: 260px;
+  text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 21px;
+	letter-spacing: 2px;
+  margin-bottom: 40%;
+	border-radius: 8px;
+  background-color: #003153;
+}
+
+.reservationbtn:hover {
+  color: blue;
+  cursor: pointer;
+  background-color:#FFFFFF;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+                  /* Q/A */
+/* ----------------------------------------- */
+
+
+
+
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -16%;
+  background-color: rgba(158,155,146,0.07);
+}
+
+.qa-header {
+	height: 72px;
+	width: 85%;
+  text-align: left;
+	color: #003153;
+	font-size: 48px;
+	font-family: Crimson;
+  line-height: 72px;
+	letter-spacing: 2px;
+  margin-top: 8%;
+}
+
+.dropbtn {
+	height: 80px;
+	width: 85%;
+  text-align: left;
+  margin-top: 1%;
+	color: #003153;
+	font-size: 20px;
+	font-family: Crimson;
+	font-weight: bold;
+	letter-spacing: 1px;
+  line-height: 24px;
+	border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.btnwrap {
+  align-self: center;
+  margin-top: -4%;
+}
+
+.big {height: 123px;}
+.big3 {height: 160px;}
+.big4 {height: 200px;}
+.big5 {height: 160px;}
+.big7 {height: 160px;}
+.big12 {height: 160px;}
+
+.plus {
+  margin-left: 5%;
+  margin-top: 0.5%;
+  margin-right: -7%;
+  margin-bottom: -0.5%;}
+
+.plus {
+  margin-top: 1.5%;
+  margin-bottom: -0.5%;
+}
+
+.db1 {
+  margin-top: 3%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  height: 43px;
+  width: 85%;
+  z-index: 1;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.dropdown-text {
+  display: none;
+	height: 24px;
+	width: 80%;
+  text-align: left;
+  margin-left: 10.5%;
+	color: #27221F;
+	font-size: 16px;
+	font-family: Roboto;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 1%;
+}
+.dropdown-text2 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 1%;}
+.dropdown-text3 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 3.5%;}
+.dropdown-text4 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 4.5%;}
+.dropdown-text5 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 3.5%;}
+.dropdown-text6 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 1%;}
+.dropdown-text7 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 3.5%;}
+.dropdown-text8 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 1%;}
+.dropdown-text9 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 1%;}
+.dropdown-text10 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 1%;}
+.dropdown-text11 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10.5%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 1%;}
+.dropdown-text12 {display: none;height: 24px;width: 80%;text-align: left;margin-left: 10%;color: #27221F;font-size: 16px;font-family: Roboto;line-height: 24px;letter-spacing: 1px;margin-bottom: 3.5%;}
+
+.txt {
+  margin-left: 10%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.txt12 {
+  margin-left: 9.5%;
+}
+.direct {
+	height: 24px;
+	width: 85%;
+  text-align: left;
+	color: #003153;
+  margin-top: 3%;
+  margin-bottom: 5%;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.up-arrow {
+  float: right;
+}

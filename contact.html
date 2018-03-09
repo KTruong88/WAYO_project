@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto" rel="stylesheet">
+      <link rel="stylesheet" href="responsive.css">
+      <link rel="stylesheet" href="about.css">
+      <link rel="stylesheet" href="navbar.css">
+      <link rel="stylesheet" href="footer.css">
+      <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="reservation.css">
+      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="contact.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqReQYzkzYG0f489wRqhErNAE5_Hfq7Gc&sensor=false"></script>
+
+
+  <script type="text/javascript">
+    // When the window has finished loading create our google map below
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
+      // Basic options for a simple Google Map
+      // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+
+      var mapOptions = {
+        // How zoomed in you want the map to start at (always required)
+        zoom: 13,
+
+        // The latitude and longitude to center the map (always required)
+        center: new google.maps.LatLng(32.689110, -117.153748),
+
+        
+        // How you would like to style the map. 
+        // This is where you would paste any style found on Snazzy Maps.
+        styles: [{ "featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{ "color": "#003153" }] }, {
+            "featureType":
+            "landscape", "elementType": "all", "stylers": [{ "color": "#f2f2f2" }]
+          }, {
+            "featureType": "poi", "elementType": "all",
+            "stylers": [{ "visibility": "off" }]
+          }, {
+            "featureType": "road", "elementType": "all", "stylers": [{
+              "saturation": -100
+            }, { "lightness": 45 }]
+          }, {
+            "featureType": "road.highway", "elementType": "all", "stylers": [{
+              "visibility": "simplified"
+            }]
+          }, { "featureType": "road.arterial", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, {
+            "featureType":
+            "transit", "elementType": "all", "stylers": [{ "visibility": "off" }]
+          }, {
+            "featureType": "water", "elementType": "all",
+            "stylers": [{ "color": "#c6c2b6" }, { "visibility": "on" }]
+          }]
+      };
+
+      // Get the HTML DOM element that will contain your map 
+      // We are using a div with id="map" seen below in the <body>
+      var mapElement = document.getElementById('map');
+
+      // Create the Google Map using our element and options defined above
+      var map = new google.maps.Map(mapElement, mapOptions);
+
+      // Let's also add a marker while we're at it
+      var marker = new google.maps.Marker({
+        position: { lat: 32.7, lng: -117.173748 },
+        map: map,
+        title: 'WAYŌ'
+      });
+    }
+  </script>
+  <title>WAYŌ/contact</title>
+</head>
+<body>
+  <section class="wrapper">
+      <!-- navbar -->
+      <nav><ul class="flex-nav"><li><a class="logo" href="./index.html#top">
+              <img src="./images/logo.png" alt="WAYŌ logo"></a></li>
+          <li><a class="navlink" href="./about.html">about</a></li>
+          <li><a class="navlink" href="./menu.html">menu</a></li>
+          <link rel="stylesheet" href="navbar.css">
+          <link rel="stylesheet" href="footer.css">
+          <li><a class="current navlink" href="#">contact</a></li>
+          <li><a href="./reservation.html"><button class="reserv">make a reservation</button>
+            </a></li>
+        </ul>
+      </nav>
+
+      <!-- Contact Us Form -->
+      <div class="form-wrapper1">
+      <div class="form-wrapper">
+         <form class="contact-form">
+          <p class="form-heading">Contact us</p>
+          <div>
+            <label for="fname"></label>
+            <input type="text" class="form  fname" name="firstname" placeholder="First name">
+            
+            <label for="lname"></label>
+            <input type="text" class="form  lname" name="lastname" placeholder="Last name">
+          </div>
+          <div>
+            <label for="email"></label>
+            <input type="email" class="form  email" name="email" placeholder="Email address">
+
+            <label for="fname"></label>
+            <input type="tel" class="form  phone-number" name="phonenumber" placeholder="Phone number">
+          </div>
+          <div>
+            <label for="hello"></label>
+            <input type="text" class="form  hello" name="hello" placeholder="Hello...">
+        </div>
+        <button type="submit" class="contact-submit">submit message</button>
+        
+      </div>
+        <div class="postcard">
+          <p class="postcard-contact-header">WAYŌ Sushi Bar</p>
+          <p class="postcard-contact-text">7810 1st Street<br /> Coronado, CA 92118<br /><br /><strong> info@wayosd.com</strong><br /> (619) 878-1037<br /><br /> Open daily from 6 to 10 pm<br /><p class="r postcard-contact-text">Reservations are required<br /></p>
+        </div>
+      </div>
+
+    <!-- Google Maps API -->
+    <section class="section2-wrapper">
+      <div id="map">
+      </div>
+    </section>
+
+  <footer class="foot">
+    <div class="newsletter">
+      <p>Join the WAYŌ newsletter
+  
+        <label for="email"></label>
+        <input type="email" id="contact-email" class="foot2  email  menu-email" name="email" placeholder="Email address">
+  
+        <span class="subscribe">
+          <img class="carot" src="./images/right-arrow.png" alt="right facing arrow">
+        </span>
+  
+        <span class="address menu-address">
+          © 2017 WAYŌ. All rights reserved.
+        </span>
+  
+  
+        <a href="www.facebook.com/WAYO">
+          <img id="menu-icon" class="icon  fb  menu-icon" src="./images/facebook.png" alt="circular facebook icon">
+        </a>
+  
+        <a href="www.instagram.com/WAYO">
+          <img id="menu-icon" class="icon  instagram  menu-icon" src="./images/instagram.png" alt="circular facebook icon">
+        </a>
+  
+    </div>
+  </footer>
+
+  </section>
+  
+</body>
+</html>

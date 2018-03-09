@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WAYŌ/reservation</title>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" type="text/css"
+      media="all">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+      <ul class="flex-nav"><li><a href="./index.html" class="logo" href="#top">
+            <img src="./images/logo.png" alt="WAYŌ logo"></a></li>
+        <li><a class="navlink" href="./about.html">about</a></li>
+        <li><a class="navlink" href="./menu.html">menu</a></li>
+        <li><a class="navlink" href="./contact.html">contact</a></li>
+        <li><a href="./reservation.html"><button class="reserv">make a reservation</button>
+          </a></li>
+      </ul>
+    </nav>
+
+     
+    <section class="reservation-wrapper">
+      <div class="reservation-top">
+        <p class="reserv-header">Reservation required</p>
+        <p class="reserv-text">
+           WAYŌ offers two seatings each evening, at 6 pm and 8 pm.<br /><br />  We are an intimate restaurant with only 10 seats. Last-minute<br /> cancellations
+          or changes in party size impact us significantly. In<br /> order to stay true to the experience we provide every guest, we<br /> require
+          a credit card number to hold reservations and enforce a<br /> strict cancellation policy.<br /><br /> Cancellations or changes in party size
+          made with less than 48 hours<br /> (2 days) notice before your reservation will incur a $120 per person<br /> charge. Thank you in advance
+          for your patience and understanding.<br /> We look forward to seeing you soon.<br />
+        </p>
+      </div>
+      <div class="reservation-photo">
+
+      </div>
+    </section>
+
+    <!-- reservation dropdowns -->
+
+    <section class="dropdown-wrap" id="edit-reserv">
+      <div class="dropdown">
+        <p class="dropdown-header">Prepare for a memorable omakase experience</p>
+
+        <div class="drop-btn-wrapper">   
+
+            <input class="btn-text  dropdown-btn" type="text" id="datepicker" placeholder="Thu, Nov 09">
+    
+            <input class="timepicker  btn-text  dropdown-btn" type="text" id="timepicker" placeholder="6:00 pm">
+
+    
+            <input class="btn-text  dropdown-btn" type="text" id="datepicker" placeholder="2 people">
+
+            <a href="reser-confirm.html">
+              <button class="dropdown-btn  reserv-btn"><p class="button-text">make a reservation</p></button>
+            </a>
+            
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    
+    <footer class="foot">
+      <div class="newsletter">
+        <p>Join the WAYŌ newsletter
+    
+          <label for="email"></label>
+          <input type="email" class="foot2  email  menu-email" name="email" placeholder="Email  address">
+    
+          <span class="subscribe">
+            <img class="carot" src="./images/right-arrow.png" alt="right facing arrow">
+          </span>
+    
+          <span class="address  menu-address">
+            © 2017 WAYŌ. All rights reserved.
+          </span>
+    
+    
+          <a href="www.facebook.com/WAYO">
+            <img class="icon  fb  menu-icon" src="./images/facebook.png" alt="circular facebook icon">
+          </a>
+    
+          <a href="www.instagram.com/WAYO">
+            <img class="icon  instagram  menu-icon" src="./images/instagram.png" alt="circular facebook icon">
+          </a>
+    
+      </div>
+    </footer>
+
+</body>
+</html>

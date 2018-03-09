@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="reservation.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="reser-thank-you.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqReQYzkzYG0f489wRqhErNAE5_Hfq7Gc&sensor=false"></script>
+  
+  
+  <script type="text/javascript">
+    // When the window has finished loading create our google map below
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
+      // Basic options for a simple Google Map
+      // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+
+      var mapOptions = {
+        // How zoomed in you want the map to start at (always required)
+        zoom: 13,
+
+        // The latitude and longitude to center the map (always required)
+        center: new google.maps.LatLng(32.689110, -117.153748),
+
+
+        // How you would like to style the map. 
+        // This is where you would paste any style found on Snazzy Maps.
+        styles: [{ "featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{ "color": "#003153" }] }, {
+          "featureType":
+          "landscape", "elementType": "all", "stylers": [{ "color": "#f2f2f2" }]
+        }, {
+          "featureType": "poi", "elementType": "all",
+          "stylers": [{ "visibility": "off" }]
+        }, {
+          "featureType": "road", "elementType": "all", "stylers": [{
+            "saturation": -100
+          }, { "lightness": 45 }]
+        }, {
+          "featureType": "road.highway", "elementType": "all", "stylers": [{
+            "visibility": "simplified"
+          }]
+        }, { "featureType": "road.arterial", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, {
+          "featureType":
+          "transit", "elementType": "all", "stylers": [{ "visibility": "off" }]
+        }, {
+          "featureType": "water", "elementType": "all",
+          "stylers": [{ "color": "#c6c2b6" }, { "visibility": "on" }]
+        }]
+      };
+
+      // Get the HTML DOM element that will contain your map 
+      // We are using a div with id="map" seen below in the <body>
+      var mapElement = document.getElementById('map');
+
+      // Create the Google Map using our element and options defined above
+      var map = new google.maps.Map(mapElement, mapOptions);
+
+      // Let's also add a marker while we're at it
+      var marker = new google.maps.Marker({
+        position: { lat: 32.7, lng: -117.173748 },
+        map: map,
+        title: 'WAYŌ'
+      });
+    }
+  </script>
+  <title>WAYŌ/contact</title>
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav>
+    <ul class="flex-nav" id="res-navbar">
+      <li>
+        <a href="./index.html" class="logo" href="#top">
+          <img src="./images/logo.png" alt="WAYŌ logo">
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--  -->
+  <div class="page-wrapper">
+
+  <section class="page-wrap">
+
+    <div class="thank-wrap">
+      <div class="thank">
+        <p class="checkmark2"><img src="./images/Checkmark.png" alt="checkmark icon"></p>
+        <span class="thank-text">Thank you for making a reservation <p class="text-below"><br/>Your reservation is confirmed <br/> You will soon receive an email confirmation</p></span>
+        <p class="printer"><img src="./images/Print.png" alt="printer icon"></p>
+
+        <p class="printer-text">print this page</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Postcard / Google Maps -->
+
+    <section class="section2-postcard">
+      <div class="section2-left">
+        <div class="top-title">
+          <p class="title"><strong>WAYŌ Sushi Bar</strong><br /> 7810 1st Street<br /> Coronado, CA 92118</p> 
+          <p class="title-right"><a href="#"><strong>info@wayosd.com</strong></a><br /> 619 878 1037</p>
+        </div>
+        <div class="left-date">
+          <span class="date-text">DATE</span>
+          <br />Saturday, November 18, 2017<br /><br />
+          <span class="date-text">TIME<br /></span>6:00 pm<br /><br />
+          <span class="date-text">GUESTS<br /></span>2 people
+        </div>
+      </div>
+        
+        <div class="section2-right">
+          <div id="map">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Second Section Postcard -->
+
+  <section class="second-postcard">
+    <div class="long-postcard">
+      <p class="guest-details">Guest details</p>
+      <div class="left-right-wrap">
+        <div class="long-left">
+          <span class="date-text1">NAME</span>
+          <br />
+            Sophie Tanaka
+            <br />
+            <br />
+          <span class="date-text1">EMAIL ADDRESS</span>
+          <br />
+             sophietanaka@gmail.com
+             <br />
+             <br />
+          <span class="date-text1">PHONE NUMBER</span>
+          <br />
+             (310) 825-4321
+             <br />
+             <br />
+          <span class="date-text1">CREDIT CARD</span>
+          <br />
+             VISA XXXX-XXXX-XXXX-9010
+             <br />
+             <br />
+        </div>
+        <div class="long-right">
+          <span class="date-text2">NOTE/SPECIAL REQUEST</span>
+          <br /> “It’s my husband’s birthday! He loves uni and oysters, but we will<br /> let our chef lead our omakase experience, of course. Thank
+          you!”
+          <br />
+          <br />
+          <br />
+          <span class="date-text2">EMAIL UPDATES</span>
+          <br /> You opted in to receive emails from us
+          <br />
+          <br />
+          <br />
+          <span class="date-text2">TEXT UPDATES</span>
+          <br /> You opted in to receive text messages from us
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Section 3 Postcard 2/3 1/3 -->
+
+  <div class="third-postcard">
+
+    <div class="contain">
+      <section class="two-third">
+        <p class="policy-title">Reserservation policy</p>
+        <p class="two-third-text">We are an intimate restaurant with only 10 seats. Last-minute<br /> cancellations or changes in party size impact us significantly.
+        In<br /> order to stay true to the experience we provide every guest, we<br /> require a credit card number to hold reservations and
+        enforce a<br /> strict cancellation policy.<br /><br /> Cancellations or changes in party size made with less than 48 hours<br /> (2 days) notice
+        before your reservation will incur a $120 per person<br /> charge. Thank you in advance for your patience and understanding.<br /> We
+        look forward to seeing you soon.</p> 
+      </section>
+      <section class="one-third">
+        <p class="change-title">Reservation cancellation or change</p>
+        <p class="one-third-text">You have been sent an email confirmation with<br /> instructions on how to request a cancellation<br /> or change to your reservation.
+        You may cancel<br /> your reservation for no charge until <span class="bold">6:00 pm<br /> on Thursday, November 16, 2017.</span><br /><br /> Please call or email us if you
+        have any<br /> problems or questions. Thank you.</p>
+        <p class="one-third-bottom">(619) 878-1037 · <span class="email"><a href="#"><strong>info@wayosd.com</strong></a></span></p>
+      </section>
+    </div>
+  </div>
+
+     <!-- Footer -->
+
+  <footer class="foot">
+    <div class="newsletter">
+      <p>Join the WAYŌ newsletter
+
+        <label for="email"></label>
+        <input type="email" class="foot2  email  menu-email" name="email" placeholder="Email address">
+
+        <span class="subscribe">
+          <img class="carot" src="./images/right-arrow.png" alt="right facing arrow">
+        </span>
+
+        <span class="address menu-address">
+          © 2017 WAYŌ. All rights reserved.
+        </span>
+
+
+        <a href="www.facebook.com/WAYO">
+          <img class="icon  fb  menu-icon" src="./images/facebook.png" alt="circular facebook icon">
+        </a>
+
+        <a href="www.instagram.com/WAYO">
+          <img class="icon  instagram  menu-icon" src="./images/instagram.png" alt="circular facebook icon">
+        </a>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
