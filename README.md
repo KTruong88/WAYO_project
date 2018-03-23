@@ -4,6 +4,7 @@
 <a href="https://ktruong88.github.io/">Portfolio</a>
 
 <h4>Collaborated with UX/UI designer to bring a mock upscale sushi restaurant website to life</h4>
+<p>This was a fun project where pretty much everything was created using Flexbox and jQuery, solidifying my skills with those tools.</p>
 
 ![alt text](https://github.com/KTruong88/WAYO_project/blob/master/images/ss0.png)
 
